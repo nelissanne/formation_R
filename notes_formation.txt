@@ -1,0 +1,8 @@
+Décocher restore RData dans Tools > Global Options (même never pour rdata)
+
+Pas de grand T ou F car valeurs écrasables (avec par ex T=100), contrairement à TRUE et FALSE
+
+require vérifie si le package est installé, sinon il l'installe et le charge.
+Partie à reformater : les install.packages n'ont pas vocation à être dans la chaîne de prod.
+
+On crée un fichier yaml (fichier texte avec extension yaml) :  

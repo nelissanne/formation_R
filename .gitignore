@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 individu_reg.*
+*.yaml
+data/
