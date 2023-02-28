@@ -5,3 +5,4 @@
 individu_reg.*
 *.yaml
 data/
+_targets.R

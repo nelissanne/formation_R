@@ -5,4 +5,12 @@ Pas de grand T ou F car valeurs écrasables (avec par ex T=100), contrairement �
 require vérifie si le package est installé, sinon il l'installe et le charge.
 Partie à reformater : les install.packages n'ont pas vocation à être dans la chaîne de prod.
 
-On crée un fichier yaml (fichier texte avec extension yaml) :  
+On crée un fichier yaml (fichier texte avec extension yaml) : peut-être mise en situation avec vrai token d'authent (ou chemins de Sidep ?)
+
+Renv : le fait d'avoir le package installé ne suffit pas à ce qu'il soit ajouté au snapshot : il faut qu'il soit appelé directement dans le code.
+Cela rend le Renv plus puissant puisqu'uniquement code-dépendant.
+
+Argument d'utilisation d'Onyxia is utiliser des containers, c'est cool.
+Particulièrement utile dans le domaine applicatif, notamment par exemple Shiny.
+Permet d'économiser notamment de l'électricité au niveau de la charge des VM qui tournent en permanence, là où l'utilisation de Kubernetes permet une économie
+dans le cas où rien ne tourne à un instant t.

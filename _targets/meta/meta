@@ -1,0 +1,9 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+data|stem|ef5bc76d0a708462|9e132fdf1fca5166|01756cea8563fe96|1588979285||t19416.6524688299s|dca0262c71d45409|873023|parquet|local|vector|||0.49||
+decennie_a_partir_annee|function|5aeb17a8ba99450b|||||||||||||||
+file_data|stem|fa0ad1721fca4614|27b7496aabdf207c|ef46db3751d8e999|-596489293|data/individu_reg.parquet|t19416.5719465605s|fafdd175f8da6c17|5339238|file|local|vector|||0.002||
+file_token|stem|3e849fad7764a57b|cea48982595b244f|ef46db3751d8e999|706799478||t19416.6524619318s|1d635f53cb385f1d|65|rds|local|vector|||0||
+indicateur_stat|function|078759d1acac926c|||||||||||||||
+read_from_parquet|function|fd21b416169287ee|||||||||||||||
+read_yaml_secret|function|c25e9bd411eec27b|||||||||||||||
+token|stem|f28b4a7cab6de548|def2bd7628750bf6|44f421b46dbd23d1|-314988050||t19416.6539312334s|c6fbfb9abe15abfd|72|rds|local|vector|||0.001||
